@@ -1,0 +1,140 @@
+.CodeMirror {
+    // Gotta have that sweet sweet line spacing
+    line-height: 1.2;
+}
+.CodeMirror-scroll {
+    // Background color of main window
+    background-color: #1d1d1d;
+    // Color of otherwise un-styled text
+    color: #c0c0c0;
+}
+.CodeMirror-gutters {
+    // Gutter to the left
+    background-color: #1d1d1d;
+}
+.CodeMirror-linenumber {
+    // Line numbers in the gutter
+    color: #7c7f7c;
+}
+.CodeMirror-selected {
+    // Highlighed text
+    background-color: #293a4c;
+}
+.CodeMirror-cursor {
+    // The cursor
+    border-left: 1px solid #c0c0c0;
+}
+.CodeMirror-matchingbracket,
+.CodeMirror-matchingtag {
+    // When you click a tag/bracket and the matching one is highlighted
+    background: #e9a354 !important;
+    color: #1d1d1d !important;
+    
+    
+}
+.CodeMirror-foldgutter-open:after {
+    // Those little arrows in the gutter
+    color: #7c7f7c;
+}
+.CodeMirror-foldgutter-folded:after {
+    // The arrows after you collapse code
+    color: #7c7f7c;
+}
+.CodeMirror.over-gutter,
+.CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        // Arrows when hovering on the gutter
+        color: #c0c0c0;
+    }
+}
+.CodeMirror-foldmarker {
+    // The [...] marking collapsed code
+    border-color: #c0c0c0;
+    background-color: #c0c0c0;
+    color: #293a4c;
+}
+.CodeMirror-searching {
+    // Ctrl + F results
+    background-color: #dfc47d;
+    // Selected result
+    &.searching-current-match {
+        background-color: #e9a354;
+    }
+}
+
+/* Non-editor Styling */
+
+#image-holder,
+#not-editor {
+    background-color: #1d1d1d;
+}
+#image-holder {
+    color: #7c7f7c;
+}
+.view-pane .image-view {
+    color: #c0c0c0;
+}
+
+/* All 'dem swatches */
+
+.cm-atom,
+.cm-string,
+.cm-string-2,
+.cm-hr,
+{
+    color: #849fbd;
+}
+.cm-def,
+.cm-property,
+.cm-plus {
+    color: #dfc47d;
+}
+.cm-number {
+    color: #85c2c2;
+}
+.cm-attribute,
+.cm-variable,
+.cm-variable-2,
+.cm-variable-3 {
+    color: #dfc47d;
+}
+.cm-operator,
+.cm-meta,
+.cm-bracket {
+    color: #c0c0c0;
+}
+.cm-comment {
+    color: #658665;
+}
+.cm-error,
+.cm-minus {
+    color: #d82727;
+}
+.cm-header {
+    color: #dfc47d;
+}
+.cm-link {
+    color: #dfc47d;
+    text-decoration: none;
+}
+.cm-rangeinfo {
+    color: #88bcd0;
+}
+.cm-keyword,
+.cm-qualifier,
+.cm-builtin,
+.cm-tag,
+.cm-quote {
+    color: #e9a354;
+}
+
+/* Active Line Highlight support */
+.CodeMirror-activeline-background {
+    background-color: #293a4c;
+}
+.CodeMirror-activeline .CodeMirror-linenumber {
+    background-color: #293a4c;
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: #293a4c;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "owlary-theme",
+    "title": "Owlary",
+    "description": "Inspired by Waher Notepad++ theme by Kristo Vaher",
+    "homepage": "http://mpegyna.com",
+    "version": "1.0.0",
+    "author": {
+        "name": "mpegyna",
+        "url": "http://mpegyna.com"
+    },
+    "license": "MIT",
+    "theme": {
+        "file": "owlary-theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": [
+        "theme",
+        "waher",        
+        "dark"
+    ]
+}
